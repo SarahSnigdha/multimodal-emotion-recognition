@@ -1,0 +1,4 @@
+﻿pretrained_models/
+uploads/
+__pycache__/
+*.pyc
