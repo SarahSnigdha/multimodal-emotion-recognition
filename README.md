@@ -264,9 +264,6 @@ project/
 
 Sarah Snigdha Chikelay (23E51A66A3)
 
-Archita Reddy Repaka (23E51A6698)
-
-Medukonduru Bhavyanjali (23E51A6673)
 
 Department of Computer Science and Engineering – AI & ML
 
