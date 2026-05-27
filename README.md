@@ -123,27 +123,58 @@ pip install -r requirements.txt
 
 ## 7. How to Run the Application
 
-### Activate Virtual Environment (Windows)
+### Step 1: Open the Project
+
+Open the project folder in Visual Studio Code.
+
+### Step 2: Open Terminal
+
+Open a new terminal:
+
+Terminal → New Terminal
+
+### Step 3: Activate Virtual Environment
+
+For PowerShell:
 
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Run the Application
+For Command Prompt (cmd):
+
+```cmd
+.venv\Scripts\activate
+```
+
+### Step 4: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run the Application
 
 ```bash
 python main.py
 ```
 
-Open a browser and visit:
+### Step 6: Open Browser
+
+Visit:
 
 ```text
 http://127.0.0.1:5000
 ```
 
 Upload an audio file and/or enter text, then click **Predict Emotion** to view Speech, Text, and Fusion predictions.
+### Note
 
+The speech and text model files exceed GitHub's file size limit. Download them from the Google Drive link above and place them inside:
+
+```text
+pretrained_models/
+```
 ---
 
 ## 8. Project Folder Structure

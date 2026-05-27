@@ -1,0 +1,5 @@
+{
+    "learning_rate": 0.0001,
+    "epochs": 10,
+    "best_validation_accuracy": 0.8666666666666667
+}
